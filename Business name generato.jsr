@@ -1,0 +1,45 @@
+
+
+// Create a Businessnamegenerator using 3 different block of names
+
+// Adjective:
+// crazy 
+// amazing 
+// Fire
+
+// shopname:
+// engine
+// food 
+// garment 
+
+// Another word:
+// Bros 
+// limited 
+// Hub
+
+let rand = Math.random()
+  if (rand < 0.33)
+  {adjective="crazy"}
+else if (rand > 0.33 && rand <0.66)
+{adjective="amazing"}
+else{adjective="Fire"}
+
+let rand1=Math.random()
+  if (rand1 < 0.33)
+  {shopname= "engine"}
+else if (rand1 > 0.33 && rand1 <0.66)
+{shopname="food"}
+else{shopname = "garment"}
+
+let rand2=Math.random()
+  if (rand2 < 0.33)
+  {anotherword = "Bros"}
+else if (rand2 > 0.33 && rand2 <0.66)
+{anotherword = "Limited"}
+else{anotherword = "Hub"}
+
+console.log( `Your Business name is ${adjective} ${shopname} ${anotherword}`)
+
+
+
+
